@@ -65,14 +65,12 @@
                         <nav id="site-navigation" class="main-navigation">
                             <div class="menu-primary-container">
                                 <ul class="menu-primary clearfix">
-                                    <li><a href="{{url_for('main.index')}}">Home</a></li>
+                                    <li><a href="index.html">Home</a></li>
                                     <li><a href="about-us.html">About Us</a></li>
                                     <li><a href="services.html">Services</a></li>
                                     <li><a href="portfolio.html">Portfolio</a></li>
                                     <li><a href="blog.html">Blog</a></li>
                                     <li><a href="contact.html">Contact</a></li>
-
-									
                                 </ul>
                             </div>
                         </nav>
@@ -82,7 +80,20 @@
         </div>
     </header>
 
-
+	<div class="slide-caption">
+        <div class="slide-text">
+            <span>We Built Design Smart</span>
+            <h2><a href="#">welcome to smart antarctica</a></h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean conv
+                pretium laoreet proin et mauris ac massa.
+            </p>
+            <a href="#" class="btn btn-default">Read More</a>
+            <a href="#" class="btn btn-primary">Buy Now</a>
+        </div>
+    </div>
+	<img src="{{ url_for('static', filename='images/slider/slider-v1-img-1.jpg')}}" alt="Slider Image">			
+	<!-- Slider One -->
     <div class="flexslider sliders slider-one">
         <ul class="slides">
             <li>
@@ -752,31 +763,17 @@
 </div>
 
 <!-- Required Plugins and Scripts -->
-<!-- <script src="js/jquery-3.1.1.min.js"></script> -->
-<!-- <script src="js/jquery-migrate.min.js"></script> -->
-<!-- <script src="js/bootstrap.min.js"></script> -->
-<!-- <script src="js/flexslider/jquery.flexslider-min.js"></script> -->
-<!-- <script src="js/owl.carousel/owl.carousel.min.js"></script> -->
-<!-- <script src="js/jquery-countTo/jquery.countTo.js"></script> -->
-<!-- <script src="js/jquery.waypoints.min.js"></script> -->
-<!-- <script src="js/slicknav/jquery.slicknav.min.js"></script> -->
-<!-- <script src="js/lightcase/vendor/jQuery/jquery.events.touch.js"></script> -->
-<!-- <script src="js/lightcase/js/lightcase.js"></script> -->
-<!-- <script src="js/fakeLoader/fakeLoader.min.js"></script> -->
-<!-- <script src="js/scripts.js"></script> -->
-
-<script type=text/javascript src="{{url_for('static', filename='js/jquery-3.1.1.min.js')}}"></script>
-<script type=text/javascript src="{{url_for('static', filename='js/jquery-migrate.min.js')}}"></script>
-<script type=text/javascript src="{{url_for('static', filename='js/bootstrap.min.js')}}"></script>
-<script type=text/javascript src="{{url_for('static', filename='js/flexslider/jquery.flexslider-min.js')}}"></script>
-<script type=text/javascript src="{{url_for('static', filename='js/owl.carousel/owl.carousel.min.js')}}"></script>
-<script type=text/javascript src="{{url_for('static', filename='js/jquery-countTo/jquery.countTo.js')}}"></script>
-<script type=text/javascript src="{{url_for('static', filename='js/jquery.waypoints.min.js')}}"></script>
-<script type=text/javascript src="{{url_for('static', filename='js/slicknav/jquery.slicknav.min.js')}}"></script>
-<script type=text/javascript src="{{url_for('static', filename='js/lightcase/vendor/jQuery/jquery.events.touch.js')}}"></script>
-<script type=text/javascript src="{{url_for('static', filename='js/lightcase/js/lightcase.js')}}"></script>
-<script type=text/javascript src="{{url_for('static', filename='js/fakeLoader/fakeLoader.min.js')}}"></script>
-<script type=text/javascript src="{{url_for('static', filename='js/scripts.js')}}"></script>
-
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/jquery-migrate.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/flexslider/jquery.flexslider-min.js"></script>
+<script src="js/owl.carousel/owl.carousel.min.js"></script>
+<script src="js/jquery-countTo/jquery.countTo.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/slicknav/jquery.slicknav.min.js"></script>
+<script src="js/lightcase/vendor/jQuery/jquery.events.touch.js"></script>
+<script src="js/lightcase/js/lightcase.js"></script>
+<script src="js/fakeLoader/fakeLoader.min.js"></script>
+<script src="js/scripts.js"></script>
 </body>
 </html>
